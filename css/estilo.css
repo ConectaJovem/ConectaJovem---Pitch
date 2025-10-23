@@ -1,25 +1,88 @@
-/* RESET UNIVERSAL */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* HEADER */
-.cabecalho{
+body {
+    background-color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+header {
+    background-color: black;
+    color: #fff;
     display: flex;
-    padding: 50px;
-    background-color: #000;
+    justify-content: space-between;
+
+}
+
+.titulo{
+    margin-left: 20px;
+    font-size: 1.5rem;
+    
+}
+
+.logo{
+    width: 18px;
+    height: 25px;
+    margin-top: 20px;
+}
+
+.jovem{
+    color: #00b6ff;
+    
+}
+
+#botao-conta{
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 300px;
+    border-radius: 6px;
+    
+}
+
+#botao-entrar{
+     height: 30px;
+     width: 50px;
+    background-color: #00b6ff;
+    color: #fff;
+    margin-top: 30px;
+    margin-right: 50px;
+    border-radius: 6px;
+
+}
+/* .menu-header{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: space-evenly;
-}
-
-.cabecalho ul{
+    text-align: center;
+    position: relative;
+    color: #fff;
     list-style: none;
-    display: flex;
-    /* margin: 0 20px; */
+} */
+ul{
+    list-style-type: none;
+     display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* text-decoration: none; */
+    
 }
-
-.cabecalho img{
-    justify-content: left;
+ul li{
+    float: left;
+}
+ul li a{
+    display: flex;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    /* padding-left: 14px 16px; */
+    justify-content: right;
 }
