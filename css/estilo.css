@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 30px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.jovem{
+    color: #00b6ff;
+    
+}
+
+#botao-conta{
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 300px;
+    border-radius: 6px;
+    
+}
+
+#botao-entrar{
+     height: 30px;
+     width: 50px;
+    background-color: #00b6ff;
+    color: #fff;
+    margin-top: 30px;
+    margin-right: 50px;
+    border-radius: 6px;
+
+}
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
