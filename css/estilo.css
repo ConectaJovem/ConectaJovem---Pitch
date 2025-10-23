@@ -1,3 +1,8 @@
+/* FONTES EXPORTADAS */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* RESET UNIVERSAL */
 * {
     margin: 0;
     padding: 0;
@@ -9,80 +14,59 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
+/* CABEÇALHO */
 header {
     background-color: black;
     color: #fff;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-
-}
-
-.titulo{
-    margin-left: 20px;
-    font-size: 1.5rem;
-    
+    padding: 30px 50px;
 }
 
 .logo{
-    width: 18px;
-    height: 25px;
-    margin-top: 20px;
-}
-
-.jovem{
-    color: #00b6ff;
-    
+    height: 40px;
 }
 
 #botao-conta{
-    height: 30px;
-    width: 100px;
+    font-family: "Work sans", sans-serif;
+    font-size: 12pt;
+    padding: 10px 6px;
     background-color: black;
+    border: 2px solid #fff;
+    margin-right: 20px;
     color: #fff;
-    margin-top: 30px;
-    margin-left: 300px;
     border-radius: 6px;
-    
 }
 
-#botao-entrar{
-     height: 30px;
-     width: 50px;
+#botao-entrar {
+    font-family: "Work sans", sans-serif;
+    font-size: 12pt;
+    padding: 10px 6px;
     background-color: #00b6ff;
+    border: none;
     color: #fff;
-    margin-top: 30px;
-    margin-right: 50px;
     border-radius: 6px;
+}
 
-}
-/* .menu-header{ 
+.menu-header ul {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
-    text-align: center;
-    position: relative;
-    color: #fff;
     list-style: none;
-} */
-ul{
-    list-style-type: none;
-     display: flex;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    /* text-decoration: none; */
-    
+    gap: 0 20px;
 }
-ul li{
-    float: left;
-}
-ul li a{
-    display: flex;
+
+.menu-header ul li a {
+    font-family: "Work-sans", sans-serif;
+    font-size: 15pt;
     color: #fff;
-    text-align: center;
     text-decoration: none;
-    /* padding-left: 14px 16px; */
-    justify-content: right;
+}
+
+/* CORPO */
+.banner {
+    background-image: url(../assets/img/conecta.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
 }
