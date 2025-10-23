@@ -18,9 +18,15 @@ header {
 
 }
 
+.titulo{
+    margin-left: 20px;
+    font-size: 1.5rem;
+    
+}
+
 .logo{
-    width: 30px;
-    height: 40px;
+    width: 18px;
+    height: 25px;
     margin-top: 20px;
 }
 
@@ -50,8 +56,33 @@ header {
     border-radius: 6px;
 
 }
-.menu-header{
+/* .menu-header{ 
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    list-style: none;
+} */
+ul{
+    list-style-type: none;
+     display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* text-decoration: none; */
+    
+}
+ul li{
+    float: left;
+}
+ul li a{
+    display: flex;
+    color: #fff;
+    text-align: center;
     text-decoration: none;
+    /* padding-left: 14px 16px; */
+    justify-content: right;
 }
