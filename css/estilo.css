@@ -1,0 +1,25 @@
+/* RESET UNIVERSAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.cabecalho{
+    display: flex;
+    padding: 50px;
+    background-color: #000;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cabecalho ul{
+    list-style: none;
+    display: flex;
+    /* margin: 0 20px; */
+}
+
+.cabecalho img{
+    justify-content: left;
+}
